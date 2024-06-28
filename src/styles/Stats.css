@@ -1,0 +1,51 @@
+.stats {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box .card {
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box .card h3 {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.box .card p {
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+
+.box .card mark {
+  background-color: #d4d4d2;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}

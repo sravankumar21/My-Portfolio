@@ -1,0 +1,35 @@
+/* Skills.css */
+
+.skills {
+    padding: 16rem 9%;
+    background: #f5f5f5;
+  }
+  
+  .skills .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .skills .heading {
+    font-size: 3rem;
+    color: #094522;
+    margin-bottom: 2rem;
+  }
+  
+  /* Import the image using the require syntax */
+  .skills .box {
+    background: url('../images/2.png') no-repeat; /* Adjusted the image path */
+    background-size: cover;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 2rem 0;
+  }
+  
+  .skills .content h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 1rem 0;
+  }
+  
